@@ -1,0 +1,28 @@
+/* 
+    Created on : 18/05/2015, 10:40:12 PM
+    Author     : Jota
+*/
+.skDescription{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.skDescription2{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    margin-top: 5px;
+}
+
+.skWelcomeView{
+    margin-top: 10%;
+}
+
+#btnNewAccount{
+    background-color: transparent;
+    color: #0ad;
+    border-color: #0ad;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}

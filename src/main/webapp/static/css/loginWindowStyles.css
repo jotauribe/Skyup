@@ -1,0 +1,21 @@
+/* 
+    Created on : 19-may-2014, 7:40:49
+    Author     : Jota Uribe
+*/
+#login-modalDialog{
+    width: 500px;
+}
+
+.fieldRow{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.fieldRow label{
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.fieldRow input{
+    width: 80%;
+}

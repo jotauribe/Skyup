@@ -1,0 +1,133 @@
+/* 
+    Created on : 19/05/2015, 10:20:13 AM
+    Author     : Jota
+*/
+.problem{
+    height: 180px;
+    border-color: rgba(0,0,0,.15);
+    border-width: 1px;
+    border-style:  dashed;
+    border-radius: 2px;
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.problem > p{
+    text-overflow:ellipsis; width:100%;
+}
+.problem > h4{
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.content{
+}
+
+.buttoms{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.buttoms > button{
+    font-size: 90%;
+    text-align: center;
+    color: rgba(0,0,0,.15);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-color: transparent;
+
+}
+#problemContainer > button:focus, #problemContainer > button:active, #ideasContainer > button:focus, #ideasContainer > button:active{
+    outline: 0 !important;
+}
+
+
+#problemContainer > button:hover, #ideasContainer > button:hover{
+    outline: 0 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.newProblem{
+    text-align: center;
+    cursor: pointer;
+}
+
+.newProblem > svg{
+    height: 40%;
+    width: 40%;
+    margin-top: 12.5%;
+    fill: #00AADD;
+    fill: rgba(0,0,0,.15);
+
+
+}
+
+.newProblem:hover{
+    border-color: rgba(0,170,221, .75);
+}
+
+.newProblem:hover svg{
+    fill: rgba(0,170,221, .75);
+}
+
+.newProblem:hover span{
+    color: rgba(0,170,221, 1);
+    font-weight: 700;
+}
+
+.row{
+    /*margin-top: 20px;*/
+}
+
+div.modal-content{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+#problemContainer, #ideasContainer{
+    padding-top: 20px;
+}
+
+.contextHeader{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: rgba(0,0,0, 0.25);
+    margin-top: 10px;
+}
+
+.contextDescription{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.contextRowContainer{
+    padding-bottom: 20px;
+}
+
+.contextContainer{
+    padding: 10px;
+    border-color: rgba(0,0,0,.15);
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.contextAcions{
+    font-size: 70%;
+    text-transform: uppercase;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    color: rgba(0,0,0, .35);
+}
